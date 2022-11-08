@@ -1,0 +1,31 @@
+{
+	"location" : 
+	{
+		"landmarks" : "three large oak",
+		"leagues" : 0.5,
+		"locatedIn" : "end of Woods",
+		"name" : "Grandma's house"
+	},
+	"personOne" : 
+	{
+		"home" : 
+		{
+			"landmarks" : "three large oak",
+			"leagues" : 0.5,
+			"locatedIn" : "end of Woods",
+			"name" : "Grandma's house"
+		},
+		"location" : 
+		{
+			"landmarks" : "three large oak",
+			"leagues" : 0.5,
+			"locatedIn" : "end of Woods",
+			"name" : "Grandma's house"
+		},
+		"name" : "Grandma",
+		"since_when" : 
+		{
+			"time" : "2022-11-08T22:13:57+0000"
+		}
+	}
+}
