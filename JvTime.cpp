@@ -142,3 +142,13 @@ JvTime::dump2JSON()
 
     return result;
 }
+
+bool JvTime::JSON2Object(Json::Value input){
+    std::string timeString = (input["time"]).asString();
+    const char* constTimeStr = timeString.c_str();
+    sscanf(constTimeStr, "%4d-%2d-%2dT%2d:%2d:%2d+%4s",
+           &(this->year), &(this->month), &(this->day),
+           &(this->hour), &(this->minute), &(this->second),
+           this->tail4);
+    return true;
+}
