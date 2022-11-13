@@ -74,13 +74,13 @@ int main() {
     thirdEvent.JSON2Object(newThird);
     fourthEvent.JSON2Object(newFourth);
     //Printing the JSON dump of the four new records
-    std::cout << "First Record" << std::endl;
+    std::cout << "First Record from file" << std::endl;
     std::cout << (firstEvent.dump2JSON()).toStyledString() << std::endl;
-    std::cout << "Second Record" << std::endl;
+    std::cout << "Second Record from file" << std::endl;
     std::cout << (secondEvent.dump2JSON()).toStyledString() << std::endl;
-    std::cout << "Third Record" << std::endl;
+    std::cout << "Third Record from file" << std::endl;
     std::cout << (thirdEvent.dump2JSON()).toStyledString() << std::endl;
-    std::cout << "Fourth Record" << std::endl;
+    std::cout << "Fourth Record from file" << std::endl;
     std::cout << (fourthEvent.dump2JSON()).toStyledString() << std::endl;
 }
 
