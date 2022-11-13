@@ -88,5 +88,6 @@ bool Person::JSON2Object(Json::Value input){
     this->type = (input["type"]).asString();
     this->home.JSON2Object(input["home"]);
     this->location.JSON2Object(input["location"]);
+    this->since_when.JSON2Object(input["since_when"]);
    return true;
 }
