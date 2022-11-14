@@ -48,10 +48,10 @@ int main() {
     Json::Value second = Second.dump2JSON();
     Json::Value third = Third.dump2JSON();
     Json::Value fourth = Fourth.dump2JSON();
-    myJSON2File("test1.txt", &first);
-    myJSON2File("test2.txt", &second);
-    myJSON2File("test3.txt", &third);
-    myJSON2File("test4.txt", &fourth);
+    myJSON2File("test1.json", &first);
+    myJSON2File("test2.json", &second);
+    myJSON2File("test3.json", &third);
+    myJSON2File("test4.json", &fourth);
     //Create four new Json::Value objects
     Json::Value newFirst;
     Json::Value newSecond;
@@ -59,10 +59,10 @@ int main() {
     Json::Value newFourth;
     //Takes the content of file, converts them to JSON and stores them in the four
     //Json::Value objects that were previously created
-    myFile2JSON("test1.txt", &newFirst);
-    myFile2JSON("test2.txt", &newSecond);
-    myFile2JSON("test3.txt", &newThird);
-    myFile2JSON("test4.txt", &newFourth);
+    myFile2JSON("test1.json", &newFirst);
+    myFile2JSON("test2.json", &newSecond);
+    myFile2JSON("test3.json", &newThird);
+    myFile2JSON("test4.json", &newFourth);
     //Create four blank record objects
     Record firstEvent;
     Record secondEvent;
