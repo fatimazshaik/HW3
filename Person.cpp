@@ -84,10 +84,33 @@ Person::dump2JSON
     return result;
 }
 bool Person::JSON2Object(Json::Value input){
+    if ((input.isNull() == true) ||
+        (input.isObject() != true))
+    {
+        return false;
+    }
+
+    if (((input["name"]).isNull() == true) ||
+        ((input["name"]).isString() != true))
+    {
+        return false;
+    }
     this->name = (input["name"]).asString();
     this->type = (input["type"]).asString();
+    if (((input["home"]).isNull() == true) ||
+        ((input["location"]).isNull() == true) ||
+        ((input["home"]).isObject() != true) ||
+        ((input["location"]).isObject() != true))
+    {
+        return false;
+    }
     this->home.JSON2Object(input["home"]);
     this->location.JSON2Object(input["location"]);
+    if (((input["since_when"]).isNull() == true) ||
+        ((input["since_when"]).isObject() != true))
+    {
+        return false;
+    }
     this->since_when.JSON2Object(input["since_when"]);
    return true;
 }

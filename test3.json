@@ -1,0 +1,43 @@
+{
+	"location" : 
+	{
+		"locatedIn" : "Woods",
+		"name" : "entrance of the woods"
+	},
+	"personOne" : 
+	{
+		"home" : 
+		{
+			"landmarks" : "Village",
+			"name" : "Red's and her Mother's House"
+		},
+		"location" : 
+		{
+			"locatedIn" : "Woods",
+			"name" : "entrance of the woods"
+		},
+		"name" : "Little Red Riding Hood",
+		"since_when" : 
+		{
+			"time" : "2022-11-14T23:52:17+0000"
+		}
+	},
+	"personTwo" : 
+	{
+		"home" : 
+		{
+			"locatedIn" : "Woods",
+			"name" : "Somewhere in woods"
+		},
+		"location" : 
+		{
+			"locatedIn" : "Woods",
+			"name" : "entrance of the woods"
+		},
+		"name" : "Wolf",
+		"since_when" : 
+		{
+			"time" : "2022-11-14T23:52:17+0000"
+		}
+	}
+}

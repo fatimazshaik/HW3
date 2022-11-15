@@ -1,0 +1,85 @@
+{
+	"location" : 
+	{
+		"landmarks" : "Village",
+		"name" : "Red's and her Mother's House"
+	},
+	"personOne" : 
+	{
+		"home" : 
+		{
+			"landmarks" : "Village",
+			"name" : "Red's and her Mother's House"
+		},
+		"location" : 
+		{
+			"landmarks" : "Village",
+			"name" : "Red's and her Mother's House"
+		},
+		"name" : "Little Red Riding Hood",
+		"since_when" : 
+		{
+			"time" : "2022-11-14T23:52:17+0000"
+		}
+	},
+	"personTwo" : 
+	{
+		"home" : 
+		{
+			"landmarks" : "Village",
+			"name" : "Red's and her Mother's House"
+		},
+		"location" : null,
+		"name" : "Mother",
+		"since_when" : 
+		{
+			"time" : "0000-1842161112-01T33554432:104:\u0001"
+		}
+	},
+	"thingOne" : 
+	{
+		"description" : "a sweet desert",
+		"name" : "Cake",
+		"owner" : 
+		{
+			"home" : 
+			{
+				"landmarks" : "Village",
+				"name" : "Red's and her Mother's House"
+			},
+			"location" : 
+			{
+				"landmarks" : "Village",
+				"name" : "Red's and her Mother's House"
+			},
+			"name" : "Little Red Riding Hood",
+			"since_when" : 
+			{
+				"time" : "2022-11-14T23:52:17+0000"
+			}
+		}
+	},
+	"thingTwo" : 
+	{
+		"description" : "a drink",
+		"name" : "Wine",
+		"owner" : 
+		{
+			"home" : 
+			{
+				"landmarks" : "Village",
+				"name" : "Red's and her Mother's House"
+			},
+			"location" : 
+			{
+				"landmarks" : "Village",
+				"name" : "Red's and her Mother's House"
+			},
+			"name" : "Little Red Riding Hood",
+			"since_when" : 
+			{
+				"time" : "2022-11-14T23:52:17+0000"
+			}
+		}
+	}
+}

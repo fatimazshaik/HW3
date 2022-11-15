@@ -65,9 +65,34 @@ Json::Value GPS::dump2JSON
     return result;
 }
 bool GPS::JSON2Object(Json::Value input){
+    if ((input.isNull() == true) ||
+        (input.isObject() != true))
+    {
+        return false;
+    }
+    if (((input["name"]).isNull() == true) ||
+        ((input["name"]).isString() != true))
+    {
+        return false;
+    }
     this->name = (input["name"]).asString();
+    if (((input["locatedIn"]).isNull() == true) ||
+        ((input["locatedIn"]).isString() != true))
+    {
+        return false;
+    }
     this->locatedIn = (input["locatedIn"]).asString();
+    if (((input["landmarks"]).isNull() == true) ||
+        ((input["landmarks"]).isString() != true))
+    {
+        return false;
+    }
     this->landmarks = (input["landmarks"]).asString();
+    if (((input["leagues"]).isNull() == true) ||
+        ((input["leagues"]).isDouble() != true))
+    {
+        return false;
+    }
     this->leagues = (input["leagues"]).asDouble();
     return true;
 }

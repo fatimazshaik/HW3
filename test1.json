@@ -1,0 +1,48 @@
+{
+	"location" : 
+	{
+		"landmarks" : "Village",
+		"name" : "Red's and her Mother's House"
+	},
+	"personOne" : 
+	{
+		"home" : 
+		{
+			"landmarks" : "Village",
+			"name" : "Red's and her Mother's House"
+		},
+		"location" : 
+		{
+			"landmarks" : "Village",
+			"name" : "Red's and her Mother's House"
+		},
+		"name" : "Little Red Riding Hood",
+		"since_when" : 
+		{
+			"time" : "2022-11-14T23:52:17+0000"
+		}
+	},
+	"thingOne" : 
+	{
+		"description" : "a head covering",
+		"name" : "Cap",
+		"owner" : 
+		{
+			"home" : 
+			{
+				"landmarks" : "Village",
+				"name" : "Red's and her Mother's House"
+			},
+			"location" : 
+			{
+				"landmarks" : "Village",
+				"name" : "Red's and her Mother's House"
+			},
+			"name" : "Little Red Riding Hood",
+			"since_when" : 
+			{
+				"time" : "2022-11-14T23:52:17+0000"
+			}
+		}
+	}
+}
