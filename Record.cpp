@@ -87,10 +87,32 @@ Json::Value Record::dump2JSON() {
 }
 
 bool Record::JSON2Object(Json::Value input){
+    if ((input.isNull() == true) ||
+        (input.isObject() != true))
+    {
+        return false;
+    }
+
     this->thingOne.JSON2Object(input["thingOne"]);
     this->thingTwo.JSON2Object(input["thingTwo"]);
+    if (((input["personOne"]).isNull() == true) ||
+        ((input["personOne"]).isObject() != true))
+    {
+        return false;
+    }
     this->personOne.JSON2Object(input["personOne"]);
     this->personTwo.JSON2Object(input["personTwo"]);
+    if (((input["location"]).isNull() == true) ||
+        ((input["location"]).isObject() != true))
+    {
+        return false;
+    }
     this->location.JSON2Object(input["location"]);
+    if (((input["time"]).isNull() == true) ||
+        ((input["time"]).isObject() != true))
+    {
+        return false;
+    }
+    this->time.JSON2Object(input["time"]);
 
 }
